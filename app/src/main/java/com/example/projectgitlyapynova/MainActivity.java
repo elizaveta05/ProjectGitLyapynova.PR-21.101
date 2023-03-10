@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 //комментарий1
     private AppBarConfiguration appBarConfiguration;
     private ActivityMainBinding binding;
-
+    //комментарий2
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
