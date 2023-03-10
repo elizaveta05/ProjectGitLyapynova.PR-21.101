@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         //комментарий5
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
+        //комментарий6
         setSupportActionBar(binding.toolbar);
 
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
